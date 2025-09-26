@@ -18,9 +18,7 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            // Aquí le decimos que use nuestro tema personalizado
             PipBoyInterfaceTheme {
-                // Y aquí llamamos a la pantalla principal que creamos
                 PipBoyScreen()
             }
         }
