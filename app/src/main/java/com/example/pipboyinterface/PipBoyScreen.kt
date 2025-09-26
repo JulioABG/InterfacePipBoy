@@ -137,7 +137,7 @@ fun StatDetails(stat: SpecialStat, modifier: Modifier = Modifier) {
             contentDescription = "${stat.name} animation",
             modifier = Modifier
                 .fillMaxWidth()
-                .height(200.dp) // Altura fija para la imagen
+                .height(200.dp)
                 .border(2.dp, PipBoyGreen),
             contentScale = ContentScale.Fit
         )
